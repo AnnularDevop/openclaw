@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  openclaw-gateway:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - OPENCLAW_HOME=/app
+      - OPENCLAW_LLM_PROVIDER=${OPENCLAW_LLM_PROVIDER}
+      - OPENCLAW_LLM_MODEL=${OPENCLAW_LLM_MODEL}
+      - OPENCLAW_LLM_API_KEY=${OPENCLAW_LLM_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - OPENCLAW_MODELS_USE_SHELL_ENV=true
+    env_file:
+      - .env
+    ports:
+      - "18789:18789"
+    restart: always
+
+# Define other specialized agent services if isolation via Docker is needed.
+# For now, we'll run them within the same gateway container.

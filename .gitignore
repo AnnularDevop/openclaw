@@ -1,0 +1,6 @@
+.DS_Store
+.env
+.openclaw/
+.openclaw_agent/
+node_modules/
+*.log
