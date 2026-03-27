@@ -4,3 +4,7 @@
 .openclaw_agent/
 node_modules/
 *.log
+tasks.json
+output.log
+.wwebjs_auth/
+.wwebjs_cache/

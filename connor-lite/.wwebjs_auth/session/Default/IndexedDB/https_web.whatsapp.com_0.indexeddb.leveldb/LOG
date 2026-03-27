@@ -1,0 +1,15 @@
+2026/03/27-19:33:17.783 2464e Reusing MANIFEST /Users/apple/open claw prj/connor-lite/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/27-19:33:17.784 2464e Recovering log #482
+2026/03/27-19:33:17.883 2464e Reusing old log /Users/apple/open claw prj/connor-lite/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000482.log 
+2026/03/27-19:33:25.012 2464e Level-0 table #491: started
+2026/03/27-19:33:25.051 2464e Level-0 table #491: 1088226 bytes OK
+2026/03/27-19:33:25.054 2464e Delete type=0 #482
+2026/03/27-19:33:25.404 2464e Compacting 1@1 + 6@2 files
+2026/03/27-19:33:25.502 2464e Generated table #492@1: 62475 keys, 2232754 bytes
+2026/03/27-19:33:25.581 2464e Generated table #493@1: 38873 keys, 2207856 bytes
+2026/03/27-19:33:25.685 2464e Generated table #494@1: 57948 keys, 2228112 bytes
+2026/03/27-19:33:25.738 2464e Generated table #495@1: 16827 keys, 2170104 bytes
+2026/03/27-19:33:25.884 2464e Generated table #496@1: 39184 keys, 2195945 bytes
+2026/03/27-19:33:25.941 2464e Generated table #497@1: 39936 keys, 1219921 bytes
+2026/03/27-19:33:25.941 2464e Compacted 1@1 + 6@2 files => 12254692 bytes
+2026/03/27-19:33:25.943 2464e compacted to: files[ 0 0 6 0 0 0 0 ]

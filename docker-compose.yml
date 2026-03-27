@@ -12,7 +12,14 @@ services:
       - OPENCLAW_LLM_API_KEY=${OPENCLAW_LLM_API_KEY}
       - GEMINI_API_KEY=${GEMINI_API_KEY}
       - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL}
+      - OLLAMA_HOST=${OLLAMA_HOST}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OLLAMA_API_KEY=${OLLAMA_API_KEY}
       - OPENCLAW_MODELS_USE_SHELL_ENV=true
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     env_file:
       - .env
     ports:
